@@ -1,0 +1,73 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+body
+{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    font-family: "Tagesschrift", system-ui;
+    border-bottom: 3px solid #000000;
+}
+#pata-gato
+{
+    width: 100px;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 105px;
+}
+#primeira-imagem
+{
+    width: 400px;
+    border: 3px solid #000000;
+    border-radius: 50px;
+}
+#segunda-imagem
+{
+    width: 370px;
+    border: 3px solid #000000;
+    border-radius: 50px;
+}
+#clique-para-falar
+{
+    font-family: "Tagesschrift", system-ui;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #d8c3ff;
+    transition: 1s;
+}
+#clique-para-falar:hover
+{
+    transition: 1s;
+    transform: scale(1.1);
+}
+footer
+{
+    border-top: 3px solid #000000;
+    font-family: "Tagesschrift", system-ui;
+    text-align: center;
+    background-image: url('./imagens/backgroung-cat.jpg');
+    padding: 15px;   
+    background-size: contain;
+    color:#000000;
+    font-size: 25px;
+    margin-top: 10px;
+}
